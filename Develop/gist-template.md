@@ -1,11 +1,10 @@
-# Title (replace with your title)
+Matching a Hex Value
 
-Introductory paragraph (replace this with your text)
+This this tutorial you should be able to understand how to understand a regdex or regular expression. What this all boils down to is how a specific search pattern is defined. When you include it in your code it should be able to help you certain items in string values. They are also used to input data. 
 
 ## Summary
-
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
-
+I choose to do a html tag, the snippet of the regex is as follows, /^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/  
+In the following secitions I will break down the values of the regex.
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -23,6 +22,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+^ and $
+These two character basically start and end the string. Whatever is inbetween them is what will be used to match the search.
 
 ### Quantifiers
 
